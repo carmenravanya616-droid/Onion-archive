@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NODE UNSTABLE</title>
+<style>
+    body {
+        background-color: #000;
+        color: #6aff6a;
+        font-family: "Courier New", monospace;
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    .text {
+        max-width: 700px;
+        margin: auto;
+        animation: flicker 2s infinite;
+    }
+
+    @keyframes flicker {
+        0% { opacity: 1; }
+        45% { opacity: 0.6; }
+        50% { opacity: 0.2; }
+        55% { opacity: 0.8; }
+        100% { opacity: 1; }
+    }
+
+    .glitch {
+        animation: glitch 1s infinite;
+    }
+
+    @keyframes glitch {
+        0% { transform: translate(0); }
+        25% { transform: translate(-1px, 1px); }
+        50% { transform: translate(1px, -1px); }
+        75% { transform: translate(-1px, -1px); }
+        100% { transform: translate(0); }
+    }
+
+    .small {
+        font-size: 12px;
+        opacity: 0.5;
+    }
+
+    a {
+        color: #ff5555;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-shadow: 0 0 6px #ff0000;
+    }
+</style>
+</head>
+<body>
+
+<div class="text">
+    <p>loading node-14…</p>
+    <p class="small">checksum failed</p>
+
+    <br>
+
+    <p class="glitch">This archive was not meant to be indexed.</p>
+    <p>The onion has too many layers.</p>
+
+    <br>
+
+    <p class="small">
+        Recipes beyond this point are incomplete.<br>
+        Ingredients have been removed.<br>
+        Names have been eaten.
+    </p>
+
+    <br>
+
+    <p class="glitch">You are not the first to reach this page.</p>
+
+    <br>
+
+    <a href="void.html">[ ATTEMPT TO DESCEND FURTHER ]</a>
+    <a href="index.html">[ RETURN TO SURFACE ]</a>
+</div>
+
+</body>
+</html>
