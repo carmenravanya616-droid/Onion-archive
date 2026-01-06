@@ -1,0 +1,23 @@
+[
+  {
+    "title": "PubMed - Biomedical Literature",
+    "url": "https://pubmed.ncbi.nlm.nih.gov",
+    "page": "medhub",
+    "category": "Database",
+    "description": "Search biomedical research articles and clinical studies."
+  },
+  {
+    "title": "NIH Research Hub",
+    "url": "https://www.nih.gov/research-training",
+    "page": "medhub",
+    "category": "Government",
+    "description": "Official NIH resources for medical research and training."
+  },
+  {
+    "title": "MedlinePlus",
+    "url": "https://medlineplus.gov",
+    "page": "medhub",
+    "category": "Patient Education",
+    "description": "Medical info and research summaries accessible to everyone."
+  }
+]
