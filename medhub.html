@@ -62,40 +62,35 @@
 </head>
 <body>
 
-<div class="container">
-    <h1>Private Research Hub</h1>
-    <p><strong>Institution:</strong> Department of Medical Sciences</p>
-    <p><strong>Access Level:</strong> Restricted</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Research Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="medhub">
 
-    <h2>Overview</h2>
-    <p>
-        This internal portal is used to host documentation related to
-        ongoing postgraduate research projects. Content is provided
-        for internal review and archival purposes only.
-    </p>
+  <header>
+    <h1>Medical Research Hub</h1>
+    <p>Search, filter, or explore random medical research resources!</p>
+  </header>
 
-    <h2>Active Research Areas</h2>
-    <p>
-        • Cellular stress responses<br>
-        • Tissue regeneration models<br>
-        • Long-term exposure studies<br>
-        • Controlled dietary compound analysis
-    </p>
+  <!-- Search Box -->
+  <input type="text" id="search" placeholder="Search links...">
 
-    <h2>Notes</h2>
-    <p>
-        Some archived materials originate from external datasets.
-        Cross-referencing may be incomplete.
-    </p>
+  <!-- Category Filters -->
+  <div id="categories" style="margin:10px 0;"></div>
 
-    <p class="notice">
-        Unauthorized distribution of materials hosted on this hub is prohibited.
-    </p>
+  <!-- Random Link Button -->
+  <button id="random-link" style="margin-bottom:15px;">Go to Random Resource</button>
 
-    <div class="footer">
-        Internal use only · Version 1.3 · Last updated: unknown
-    </div>
-</div>
+  <!-- Link List -->
+  <ul id="link-list"></ul>
+
+  <!-- Script -->
+  <script src="js/script.js"></script>
 
 </body>
 </html>
