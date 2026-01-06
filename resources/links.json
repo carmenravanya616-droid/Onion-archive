@@ -1,0 +1,37 @@
+[
+  {
+    "title": "PubMed - Biomedical Literature",
+    "url": "https://pubmed.ncbi.nlm.nih.gov",
+    "page": "medhub",
+    "category": "Database",
+    "description": "Search biomedical research articles and clinical studies."
+  },
+  {
+    "title": "NIH Research Hub",
+    "url": "https://www.nih.gov/research-training",
+    "page": "medhub",
+    "category": "Government",
+    "description": "Official NIH resources for medical research and training."
+  },
+  {
+    "title": "MedlinePlus",
+    "url": "https://medlineplus.gov",
+    "page": "medhub",
+    "category": "Patient Education",
+    "description": "Medical info and research summaries accessible to everyone."
+  },
+  {
+    "title": "Nature Journal",
+    "url": "https://www.nature.com",
+    "page": "archive",
+    "category": "Journal",
+    "description": "Top science journal with medical and biology research."
+  },
+  {
+    "title": "Deep AI Research",
+    "url": "https://deepai.org",
+    "page": "deep",
+    "category": "AI / Research",
+    "description": "Deep computational research resources."
+  }
+]
