@@ -125,49 +125,6 @@
 
   <!-- Script -->
   <script src="js/script.js"></script>
-const links = [
-  {
-    title: "External Research Archive",
-    url: "https://carmenravanya616-droid.github.io/New-site/",
-    category: "Archive",
-    keywords: "external archive cryptid experimental REDACTED ARCHIVE"
-  },
-  {
-    title: "Internal Medical Notes",
-    url: "#",
-    category: "Internal",
-    keywords: "cellular tissue regeneration"
-  }
-];
 
-const searchInput = document.getElementById("search");
-const linkList = document.getElementById("link-list");
-
-// Display links
-function displayLinks(filteredLinks) {
-  linkList.innerHTML = "";
-
-  filteredLinks.forEach(link => {
-    const li = document.createElement("li");
-    li.innerHTML = `<a href="${link.url}" target="_blank">${link.title}</a>`;
-    linkList.appendChild(li);
-  });
-}
-
-// Search logic
-searchInput.addEventListener("input", () => {
-  const query = searchInput.value.toLowerCase();
-
-  const filtered = links.filter(link =>
-    link.title.toLowerCase().includes(query) ||
-    link.keywords.toLowerCase().includes(query)
-  );
-
-  displayLinks(filtered);
-});
-
-// Show all links on load
-displayLinks(links);
-    
 </body>
 </html>
